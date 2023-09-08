@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="كيد كود هي منصة تعليمية لتأهيل الاطفال لمجالات المستقبل">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" href="img/logo-noback.png">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Kid Code - Home</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo-noback.png" alt="kidcode logo" width="50"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-lg-auto">
+              <li class="nav-item ">
+                <a class="nav-link active" aria-current="page" href="index.html"><span class="">Home - الرئيسية</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html"><span class="">Pricing - الأسعار</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="">Courses - الدورات</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-code"></i> Programming</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-square-root-alt"></i> Math</a></li>
+                  <li><a class="dropdown-item" href="#"><i class="fa fa-language"></i> English</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex gap-3" role="search">
+              <button type="button" class="btn btn-info text-white fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModalregister">Register - انضم الينا</button>
+              <button type="button" class="btn btn-info text-white fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModallogin">Login - تسجيل الدخول</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="intro d-flex flex-column justify-content-center align-items-center">
+        <p class="text-start fs-3 fw-bold">Kid Code, it's a platform to teach your kid the basics of programming and Qualifies him for <span class="text-info mentality-ident-en">Mentality</span> </p>
+        <p class="text-end   fs-3 fw-bold"><span class="text-info mentality-ident-ar">Mentality</span> كيد كود هي منصة تعليمية لتعليم الأطفال أساسيات البرمجة وتؤهلهم الي </p>
+          </p>
+        <button class="btn btn-info fw-bold text-white">Start Now - ابدأ الان</button>
+      </div>
+
+      <!-- login modal -->
+      <div class="modal fade" id="exampleModallogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Login - تسجيل الدخول</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info fw-bold text-white" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info fw-bold text-white">Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- register modal -->
+      <div class="modal fade" id="exampleModalregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account - انشئ حساب</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!--  -->
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputName1" class="form-label">User Name</label>
+                  <input type="text" class="form-control" id="exampleInputName1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              </form>
+              <!--  -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-info fw-bold text-white" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-info fw-bold text-white">Create Account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+   <hr class="w-75 m-auto mb-5">
+
+
+    <!-- Team -->
+    <div class="container d-flex flex-column align-items-center">
+      <h3 class="mb-4">Team - الفريق</h3>
+      <div class="container team-cards d-xl-flex justify-content-around">
+
+        <div class="card" style="width: 18rem; height: 450px;">
+          <img src="img/team/img1.jpg" class="card-img-top" alt="abdo mahmoud" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Abdelrahman Mahmoud</h5>
+            <p class="card-text">Developer</p>
+            <a href="#" class="btn btn-info text-white">Download CV</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; height: 450px;">
+          <img src="img/team/ahmedadel.png" class="card-img-top" alt="abdo mahmoud" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Ahmed Adel</h5>
+            <p class="card-text">Developer</p>
+            <a href="#" class="btn btn-info text-white">Download CV</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem; height: 450px;">
+          <img src="img/team/merna.png" class="card-img-top" alt="abdo mahmoud" height="300">
+          <div class="card-body">
+            <h5 class="card-title">Merna Omran</h5>
+            <p class="card-text">Developer</p>
+            <a href="#" class="btn btn-info text-white">Download CV</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="team-badges d-xl-none d-lg-none">
+        <button type="button" class="btn btn-info mb-3">
+          Abdelrahman Mahmoud <span class="badge bg-black">Developer</span>
+        </button>
+
+        <button type="button" class="btn btn-info mb-3">
+          Ahmed Adel <span class="badge bg-black">Developer</span>
+        </button>
+
+        <button type="button" class="btn btn-info mb-3">
+          Merna Omran <span class="badge bg-black">Developer</span>
+        </button>
+      </div>
+      
+    </div>
+
+    <!--  -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2023 Kid Code, All rights reserved.</p>
+
+        <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <img src="img/logo-noback.png" alt="" width="50">
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fab fa-facebook    text-white bg-info p-2 rounded-circle" ></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fab fa-instagram   text-white bg-info p-2 rounded-circle"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fab fa-youtube     text-white bg-info p-2 rounded-circle"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fab fa-google-play text-white bg-info p-2 rounded-circle"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fab fa-app-store   text-white bg-info p-2 rounded-circle"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+      <!--  -->
+
+
+
+      <!--  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

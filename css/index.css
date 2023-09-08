@@ -1,0 +1,143 @@
+:root
+{
+    --infoColor:#0dcaf0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body::-webkit-scrollbar
+{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: var(--infoColor);
+}
+
+.full-height{height: 100vh;}
+
+
+.soon-popHover{
+
+}
+
+
+/**/
+.intro{
+    width: 100%;
+    height: 450px;
+}
+.intro p{
+    width: 80%;
+    height: fit-content;
+}
+
+
+/**/
+.mentality-ident-ar{
+    cursor: pointer;
+    position: relative;
+}
+.mentality-ident-ar::before{
+    content: "هي منصة لتعليم البرمجة للكبار Mentality";
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+
+    width: 200%;
+    height: fit-content;
+    background-color: gray;
+    color: white;
+    
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 10px;
+
+    z-index: 1;
+    display: none;
+
+    transition: .2s;
+}
+.mentality-ident-ar:hover::before{
+    display: block;
+}
+
+
+
+
+.mentality-ident-en{
+    cursor: pointer;
+    position: relative;
+}
+.mentality-ident-en::before{
+    content: "Mentality is a platform to teach programming for Adults.";
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+
+    width: 200%;
+    height: fit-content;
+    background-color: gray;
+    color: white;
+    
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    border-radius: 10px;
+
+    z-index: 1;
+    display: none;
+
+    transition: .2s;
+}
+.mentality-ident-en:hover::before{
+    display: block;
+}
+
+
+/**/
+.fab{transition: .2s;}
+.fab:hover
+{
+    color: white;
+}
+
+
+/**/
+.team-badges{
+    display: none;
+}
+
+@media (max-width:800px) 
+{
+    .team-cards{
+        display: none;
+    }   
+    .team-badges{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:500px) 
+{
+    .team-cards{
+        display: none;
+    }   
+    .team-badges{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
